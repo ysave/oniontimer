@@ -1,0 +1,27 @@
+html, body {
+    background-color: #7267CB;
+}
+
+#secondbackground {
+    padding: 5px;
+    background-color: #6E3CBC;
+}
+
+.onion-container {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.time-container {
+    display: flex;
+    align-items: flex-start;
+    font-family: Verdana,sans-serif;
+    color: white;
+    font-size: xxx-large;
+}
+
+
+h1 {
+    font-family: "Verdana", sans-serif;
+    color: white;
+}

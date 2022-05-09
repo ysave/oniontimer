@@ -2,11 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>OnionTimer</title>
+    <title id ="title">OnionTimer</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="script.js"></script>
 </head>
-<body>
-<h1>OnionTimer</h1>
-
-
+<body onload="timer()">
+<div id="secondbackground">
+    <div class="onion-container">
+        <h1>OnionTimer</h1>
+        <div id="webgl"></div>
+        <div id="timer">
+            <div class="buttons">
+                <input type="button" value="Onion" id="onion">
+                <input type="button" value="Short Break" id="short-break">
+                <input type="button" value="Long Break" id="long-break">
+            </div>
+            <div class="time-container">
+                <h4 id="minutes"></h4>
+                    <h4>:</h4>
+                <h4 id="seconds"></h4>
+            </div>
+            <div id="start">
+                <input type="submit" onclick="start()" value="start">
+            </div>
+            <div id="done"></div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
